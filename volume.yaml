@@ -30,7 +30,8 @@ spec:
         - key: kubernetes.io/hostname
           operator: In
           values:
-          - worker-node01
+          - rocky02
+          - rocky03
 
 ---
 apiVersion: v1
